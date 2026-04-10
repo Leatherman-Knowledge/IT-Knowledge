@@ -1,0 +1,43 @@
+- Good name
+	- **NED — Normalized Enterprise Data** (or _Nomenclature & Enterprise Data_)
+	- **FRANK** — a classic pairing with Edna in pop culture, and could stand for something like _Framework for Record and Nomenclature Knowledge_.
+	- **ETHEL** — another culturally linked name (think _I Love Lucy_), could work as _Enterprise Tool for Hierarchical and Enriched Listings_.
+	- **EARL** — _Enterprise Asset and Resource Listing_, and a solid husband-type name to Edna.
+- Multi-users at once
+- Channelization and localized values
+- Support GraphQL
+	- Query parent product with variants
+	- Query defaults to all channels and locales
+	- Query by channel and receive all locals by default
+	- Query by channel and locale
+- Connect to existing Shopify exporter with minimal changes
+- Import/Export should be key
+- We need system backups and a refresh for dev environment. Done through Import/Export system
+- Single product updates from UI to Shopify (or on trigger/schedule)
+- Self-serve data query via Chat UI
+- Enforce camel casing for codes
+- Create auto incrementing values
+- Enable data team abilities to add attributes, and locales and countries, etc.
+- Feature to allow third parties to enable/remove sku's from their Shopify stores.
+- Ability to identify problematic sku setups for "identical" sku's going into Shopify
+- Order variants per product
+- Simplified permissions for users
+- Map attributes from PIM to Shopify easily
+- Product associations support 1 & 2 way. Variant level and product level associations
+	- Order associations
+- Instant import buttons
+- "View on Shopify store" buttons for products
+- Attribute group permissions. Viewer/Edit
+- Alt tags on images
+- Attribute field fallbacks (Common product is the fallback for the variant description)
+- Improved product viewing abilities
+- Bulk updating in the UI
+- Moving products between families and sku types
+- External Catalogs are being used
+- 
+
+**Data team questions**
+- Do you want main fallback locales? For example fr_CA -> fr
+	- Need this
+- Variant levels - how do we want to do it. Maintain three variant levels might be best?
+	- Keep this
